@@ -92,6 +92,9 @@
                             <constraint firstItem="awF-ak-lPH" firstAttribute="centerY" secondItem="czB-HV-0wN" secondAttribute="centerY" id="MGK-WU-PVc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="welcomeLabel" destination="awF-ak-lPH" id="EPj-5G-Uk4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YQF-kb-BPB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
