@@ -70,10 +70,10 @@
             </objects>
             <point key="canvasLocation" x="-307" y="-245"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="6be-Oa-A0a">
             <objects>
-                <viewController id="Zkg-ec-FEb" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Zkg-ec-FEb" customClass="HomeViewController" customModule="MVC_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="czB-HV-0wN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
