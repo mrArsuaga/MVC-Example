@@ -14,6 +14,7 @@
 		C3DE013428556366003A0B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DE013328556366003A0B4D /* Assets.xcassets */; };
 		C3DE013728556366003A0B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3DE013528556366003A0B4D /* LaunchScreen.storyboard */; };
 		C3DE013F2855673D003A0B4D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DE013E2855673D003A0B4D /* HomeViewController.swift */; };
+		C3DE014128556AA4003A0B4D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DE014028556AA4003A0B4D /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C3DE013628556366003A0B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3DE013828556366003A0B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3DE013E2855673D003A0B4D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C3DE014028556AA4003A0B4D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				C3DE012A28556362003A0B4D /* AppDelegate.swift */,
 				C3DE012C28556363003A0B4D /* SceneDelegate.swift */,
+				C3DE014028556AA4003A0B4D /* User.swift */,
 				C3DE012E28556363003A0B4D /* LoginViewController.swift */,
 				C3DE013E2855673D003A0B4D /* HomeViewController.swift */,
 				C3DE013028556363003A0B4D /* Main.storyboard */,
@@ -144,6 +147,7 @@
 				C3DE012F28556363003A0B4D /* LoginViewController.swift in Sources */,
 				C3DE012B28556362003A0B4D /* AppDelegate.swift in Sources */,
 				C3DE012D28556363003A0B4D /* SceneDelegate.swift in Sources */,
+				C3DE014128556AA4003A0B4D /* User.swift in Sources */,
 				C3DE013F2855673D003A0B4D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
