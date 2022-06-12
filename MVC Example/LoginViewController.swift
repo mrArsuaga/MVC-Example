@@ -24,6 +24,10 @@ class LoginViewController: UIViewController {
         loginButton.isEnabled = !(emailTextField.text?.isEmpty ?? false) && !(passwordTextField.text?.isEmpty ?? false)
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
     @IBAction func loginButtonTapped() {
         guard let email = emailTextField.text,
               let password = passwordTextField.text else { return }
