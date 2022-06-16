@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C374818B285A93D6002A0A84 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374818A285A93D6002A0A84 /* User.swift */; };
+		C374818D285A9578002A0A84 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374818C285A9578002A0A84 /* NetworkService.swift */; };
 		C3DE012B28556362003A0B4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DE012A28556362003A0B4D /* AppDelegate.swift */; };
 		C3DE012D28556363003A0B4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DE012C28556363003A0B4D /* SceneDelegate.swift */; };
 		C3DE012F28556363003A0B4D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DE012E28556363003A0B4D /* LoginViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C374818A285A93D6002A0A84 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C374818C285A9578002A0A84 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		C3DE012728556362003A0B4D /* MVC Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVC Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DE012A28556362003A0B4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3DE012C28556363003A0B4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				C3DE013328556366003A0B4D /* Assets.xcassets */,
 				C3DE013528556366003A0B4D /* LaunchScreen.storyboard */,
 				C3DE013828556366003A0B4D /* Info.plist */,
+				C374818A285A93D6002A0A84 /* User.swift */,
+				C374818C285A9578002A0A84 /* NetworkService.swift */,
 			);
 			path = "MVC Example";
 			sourceTree = "<group>";
@@ -144,6 +150,8 @@
 				C3DE012F28556363003A0B4D /* LoginViewController.swift in Sources */,
 				C3DE012B28556362003A0B4D /* AppDelegate.swift in Sources */,
 				C3DE012D28556363003A0B4D /* SceneDelegate.swift in Sources */,
+				C374818B285A93D6002A0A84 /* User.swift in Sources */,
+				C374818D285A9578002A0A84 /* NetworkService.swift in Sources */,
 				C3DE013F2855673D003A0B4D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

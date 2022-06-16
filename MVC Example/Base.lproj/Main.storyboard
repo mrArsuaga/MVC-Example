@@ -32,7 +32,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRs-27-wwp">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRs-27-wwp">
                                 <rect key="frame" x="20" y="347" width="374" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Login"/>
@@ -62,6 +62,7 @@
                     </view>
                     <connections>
                         <outlet property="emailTextField" destination="wVz-K8-TmF" id="eNy-ZF-wMw"/>
+                        <outlet property="loginButton" destination="ZRs-27-wwp" id="S13-1w-wA0"/>
                         <outlet property="passwordTextField" destination="HYI-PZ-8j7" id="fuX-8X-6b9"/>
                     </connections>
                 </viewController>
@@ -69,10 +70,10 @@
             </objects>
             <point key="canvasLocation" x="-307" y="-245"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="6be-Oa-A0a">
             <objects>
-                <viewController id="Zkg-ec-FEb" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Zkg-ec-FEb" customClass="HomeViewController" customModule="MVC_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="czB-HV-0wN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -91,6 +92,9 @@
                             <constraint firstItem="awF-ak-lPH" firstAttribute="centerY" secondItem="czB-HV-0wN" secondAttribute="centerY" id="MGK-WU-PVc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="welcomeLabel" destination="awF-ak-lPH" id="fTx-H0-FTl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YQF-kb-BPB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

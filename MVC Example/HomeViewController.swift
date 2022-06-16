@@ -8,11 +8,13 @@
 import UIKit
 
 class HomeViewController: UIViewController {
+    
+    @IBOutlet private weak var welcomeLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        guard let user = NetworkService.shared.getUser() else { return }
+        welcomeLabel.text = "Hello, \(user.firstName) \(user.lastName)"
     }
     
 
